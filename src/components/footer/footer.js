@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
             <img src={logo} alt="" />
-            <div className="logos asdasd">
+            <div className="logos">
               <FaFacebookF />
               <FaTwitter />
               <FaYoutube />
