@@ -1,13 +1,28 @@
 .footer {
   background: whitesmoke;
-  padding: 100px;
+  padding: 100px !important;
   margin-top: 8rem;
   box-shadow: 0px 5px 25px grey;
+
   .container {
     .row {
-      .col-xl-3 {
+      .links {
+        ul {
+          li {
+            cursor: pointer;
+            font-weight: 500;
+            list-style: disc !important;
+          }
+          li:hover {
+            transform: scale(1.02);
+            transition: 0.5s;
+          }
+        }
+      }
+      .col-xl-4 {
         ul {
           h6 {
+            width: max-content;
             font-size: 20px;
             margin-bottom: 15px;
             svg {
@@ -23,6 +38,7 @@
         .logos {
           display: flex;
           svg {
+            cursor: pointer;
             font-size: 26px;
             margin: 40px 10px;
             color: #333333;

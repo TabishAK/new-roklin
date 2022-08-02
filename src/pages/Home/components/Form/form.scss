@@ -2,6 +2,7 @@
   .form-header {
     display: grid;
     background-image: url("../../../../images/request-a-quote/1.jpg");
+    margin-top: 10rem;
     h1 {
       text-align: left;
       margin-top: 5rem;
@@ -11,12 +12,19 @@
     }
   }
 
+  .additional-comments {
+    textarea {
+      padding: 10px;
+      width: 28rem;
+      height: 8rem;
+      border: 1px solid #cccccc !important;
+    }
+  }
+
   .form-fields {
     margin-top: 3rem;
     .container {
       .button {
-        display: flex;
-        justify-content: center;
         button {
           background: black;
           color: white;
@@ -32,6 +40,7 @@
           width: 100%;
           padding: 10px;
           height: 40px;
+          border: 1px solid #cccccc !important;
         }
 
         .col-xl-6 {
@@ -49,6 +58,7 @@
           width: 100%;
           padding: 10px;
           height: 40px;
+          border: 1px solid #cccccc !important;
         }
       }
 
@@ -59,6 +69,7 @@
           width: 100%;
           padding: 10px;
           height: 40px;
+          border: 1px solid #cccccc !important;
         }
       }
       .title {
@@ -68,6 +79,7 @@
           width: 100%;
           padding: 10px;
           height: 40px;
+          border: 1px solid #cccccc !important;
         }
       }
 

@@ -6,12 +6,6 @@
     margin-top: 3rem;
   }
 
-  h1.slideshow__slide-caption-title {
-    padding-left: 24px !important;
-    margin-top: 1rem !important;
-    padding-right: 0px !important;
-    color: black !important;
-  }
   .c-header-home_controls.-nomobile.o-button-group {
     margin-left: 3% !important;
     position: relative !important;
@@ -39,7 +33,23 @@
 }
 
 @media (max-width: 1199px) {
-  .who-are-we .container .row .col-xl-6 {
+  .panel .col-xl-4 {
+    .description {
+      h2 {
+        margin-top: 3rem !important;
+        font-size: 32px;
+      }
+      p {
+        padding-right: 0;
+      }
+    }
+  }
+
+  .pagination-button {
+    justify-content: start;
+  }
+
+  .panel .col-xl-4 .description .who-are-we .container .row .col-xl-6 {
     .heading-1 {
       font-size: 36px;
     }
@@ -62,10 +72,6 @@
 
   .who-are-we .container .row .text-part {
     padding-right: 40px;
-  }
-
-  .home .video div video {
-    margin-top: 8rem;
   }
 
   .footer .container .row .col-xl-3 ul li {
@@ -135,22 +141,64 @@
       padding-left: 5.5rem !important;
 
       h1 {
-        margin-top: 6rem;
-        font-size: 55px;
+        line-height: 45px;
+        margin-top: 2rem;
+        font-size: 45px;
       }
     }
   }
 }
 
 @media (max-width: 991px) {
+  .appraisal-3 {
+    img {
+      width: 26% !important;
+    }
+  }
+  .form .form-header {
+    margin-top: 15rem !important;
+  }
+
+  .panel .col-xl-4 .description h3 {
+    margin-top: 0rem;
+    letter-spacing: 0px;
+    font-size: 20px;
+  }
+
+  .panel .col-xl-4 .description .navigate-button {
+    color: white !important;
+    font-size: 12px;
+    padding: 10px;
+    margin-top: 15px !important;
+  }
+  .panel .col-xl-4 .description h2 {
+    margin-top: 2rem !important;
+    font-size: 25px;
+  }
+
+  .pagination-button button {
+    color: white !important;
+
+    font-size: 12px;
+    padding: 10px;
+    border-left: 1px solid white;
+  }
+
+  .footer .container .row .col-xl-4 ul li {
+    list-style: none !important;
+  }
+
+  .home video {
+    z-index: -1 !important;
+    position: relative;
+    margin-top: 6rem;
+    width: 100%;
+  }
+
   .c-header-home_controls.-nomobile.o-button-group {
     margin-left: 6% !important;
     position: relative !important;
     top: -28px !important;
-  }
-
-  .home .video div video {
-    margin-top: -3rem !important;
   }
 
   .who-are-we .container .row .col-xl-6 img {
@@ -207,6 +255,7 @@
     color: white;
     letter-spacing: 0px;
     margin-left: 18px;
+    white-space: nowrap;
   }
 
   .about .container .row .col-xl-6 p {
@@ -224,10 +273,6 @@
     margin-top: 3rem;
   }
 
-  .home div video {
-    top: 80% !important;
-  }
-
   .product-line-heading {
     text-align: left !important;
     color: black !important;
@@ -238,8 +283,9 @@
 
   .banner .container {
     h1 {
-      margin-top: 2rem !important;
+      margin-top: 8rem !important;
       font-size: 28px !important;
+      line-height: 35px;
     }
     h3 {
       font-size: 18px !important;
@@ -252,11 +298,22 @@
     padding-bottom: 2rem !important;
     padding: 0;
   }
+
+  .item .content .text {
+    margin-top: -15%;
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 767px) {
-  .home .video div video {
-    margin-top: 2rem !important;
+  .mt-5 {
+    .col-3 {
+      width: 12rem !important;
+    }
+  }
+
+  .css-b62m3t-container {
+    margin-bottom: 2rem;
   }
 
   .second-column {
@@ -265,6 +322,7 @@
   .footer .container .row {
     .links {
       margin-top: 2rem;
+      margin-bottom: 2rem;
     }
   }
 
@@ -307,10 +365,6 @@
     }
   }
 
-  .home div video {
-    top: 75% !important;
-  }
-
   .c-header-home_controls.-nomobile.o-button-group {
     margin-left: 3% !important;
     position: relative !important;
@@ -322,11 +376,25 @@
   }
 
   .banner .container {
-    padding-right: 1.5rem !important;
-    padding-left: 1.5rem !important;
+    padding-right: 0px !important;
+    padding-left: 45px !important;
+
     h1 {
-      margin-top: 3rem;
-      font-size: 34px;
+      margin-top: 5rem !important;
+      font-size: 22px !important;
+      line-height: 20px;
+    }
+
+    p {
+      font-size: 14px !important;
+      color: white !important;
+      text-align: left !important;
+      line-height: 16px !important;
+    }
+
+    .buttons {
+      margin-top: 1rem !important;
+      margin-bottom: 5rem !important;
     }
   }
 
@@ -351,19 +419,65 @@
   .second {
     margin-top: 1rem;
   }
+  .footer .container .row .col-xl-4 .logos {
+    justify-content: center !important;
+  }
+
+  .item .content .text {
+    margin-top: -30%;
+    font-size: 20px;
+  }
+
+  .home video {
+    margin-top: 10rem !important;
+    width: 100%;
+  }
+  .panel .col-xl-4 .description {
+    margin-bottom: 3rem;
+    text-align-last: center;
+  }
+
+  .pagination-button {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 575px) and (min-width: 380px) {
 }
 
 @media (max-width: 575px) {
+  .who-are-we {
+    margin-top: 10rem !important;
+  }
+  .panel .col-xl-8 img {
+    width: 100% !important;
+  }
+
+  .sierra-redirect {
+    top: -85px;
+  }
+
+  .floating-btn {
+    height: 40px;
+    width: 70px !important;
+    padding: 0px;
+    top: -45px;
+  }
+
+  .banner {
+    margin-bottom: 3rem !important;
+  }
+
+  .home video {
+    margin-top: 192px !important;
+  }
+
   .pagination__item {
     font-size: 12px !important;
   }
 
   .who-are-we .container .row .text-part {
     padding-right: 0;
-  }
-
-  .home .video div video {
-    margin-top: 0 !important ;
   }
 
   .footer {
@@ -446,28 +560,37 @@
   }
 
   .banner .container {
-    padding-right: 1.5rem !important;
-    padding-left: 1.5rem !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
   }
 
   .banner .container {
     h1 {
-      margin-top: 3rem !important;
-      font-size: 18px !important;
+      margin-top: 5rem !important;
+      font-size: 16px !important;
       text-align: center !important;
       line-height: 10px !important;
     }
 
     h3 {
-      font-size: 14px !important;
+      font-size: 12px !important;
       text-align: center !important;
       color: white;
-      margin-top: 10px;
-      padding-top: 5px;
+      margin-top: 0px;
+      padding-top: 3px;
+      width: 100% !important;
+      border-top: none !important;
     }
     p {
-      font-size: 14px;
-      text-align: center;
+      margin-left: 30px;
+      margin-right: 30px;
+      font-size: 12px !important;
+      text-align: center !important;
+
+      br {
+        display: none;
+      }
     }
   }
 
@@ -480,5 +603,114 @@
   }
   .js-parallax {
     left: -70px !important;
+  }
+
+  .slideshow__slide-image.background-absolute {
+    width: 60% !important;
+    height: 14rem;
+    left: 40% !important;
+    top: 10rem !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+  }
+
+  .slideshow {
+    min-height: 660px !important;
+  }
+
+  .appraisal-3 {
+    img {
+      width: 27% !important;
+    }
+  }
+
+  .who-are-we .container .row .col-xl-6 p {
+    margin-bottom: 2rem;
+    line-height: 20px;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .about .container .row .col-xl-6 {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .second-column {
+    padding-left: 35px;
+  }
+
+  .item .content .text {
+    margin-top: -40%;
+    font-size: 20px;
+  }
+
+  .panel .col-xl-4 .description {
+    margin-left: 0rem !important;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    p {
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 457px) {
+  .home video {
+    margin-top: 18rem;
+  }
+}
+
+@media (max-width: 412px) {
+  h1.slideshow__slide-caption-title {
+    font-size: 18px !important;
+    padding-right: 0 !important;
+    letter-spacing: 0px;
+    text-align: center;
+    color: black !important;
+    margin-top: 6rem !important;
+  }
+
+  .slideshow__slide-image.background-absolute {
+    width: 60% !important;
+    height: 14rem;
+    left: 40% !important;
+    top: 17rem !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+  }
+
+  p.slideshow__slide-caption-content {
+    color: black !important;
+    padding-left: 100px !important;
+    top: -10px !important;
+    position: relative;
+    padding-right: 0 !important;
+    cursor: pointer !important;
+    font-size: 14px !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .sierra-redirect {
+    margin-top: 24px;
+  }
+
+  .pagination__item {
+    font-size: 10px !important;
+    height: 40px !important;
+  }
+}
+
+@media (max-width: 408px) {
+  .banner {
+    .container {
+      h1 {
+        margin-top: 4rem !important;
+      }
+    }
   }
 }

@@ -1,4 +1,7 @@
 .banner {
+  width: 100%;
+  position: absolute;
+  top: 12rem;
   @media (max-width: 1550px) and (min-width: 1200px) {
     .container .buttons {
       display: flex;
@@ -32,10 +35,9 @@
     .buttons {
       display: flex;
       margin-top: 2rem;
-      margin-bottom: 10rem;
+      margin-bottom: 160px;
       button {
         padding: 12px 10px;
-        margin-left: 1rem;
         border: none;
       }
 
